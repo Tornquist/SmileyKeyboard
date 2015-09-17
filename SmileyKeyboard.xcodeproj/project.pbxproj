@@ -12,26 +12,7 @@
 		1A248B5B1BAB64EA00F5CA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B591BAB64EA00F5CA3C /* Main.storyboard */; };
 		1A248B5D1BAB64EA00F5CA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */; };
 		1A248B601BAB64EA00F5CA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */; };
-		1A248B6B1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B6A1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift */; };
-		1A248B761BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B751BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1A248B671BAB64EA00F5CA3C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A248B4A1BAB64EA00F5CA3C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A248B511BAB64EA00F5CA3C;
-			remoteInfo = SmileyKeyboard;
-		};
-		1A248B721BAB64EA00F5CA3C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A248B4A1BAB64EA00F5CA3C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A248B511BAB64EA00F5CA3C;
-			remoteInfo = SmileyKeyboard;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A248B5F1BAB64EA00F5CA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A248B611BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A248B661BAB64EA00F5CA3C /* SmileyKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A248B6A1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyKeyboardTests.swift; sourceTree = "<group>"; };
-		1A248B6C1BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A248B711BAB64EA00F5CA3C /* SmileyKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A248B751BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyKeyboardUITests.swift; sourceTree = "<group>"; };
-		1A248B771BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A248B4F1BAB64EA00F5CA3C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A248B631BAB64EA00F5CA3C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A248B6E1BAB64EA00F5CA3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				1A248B541BAB64EA00F5CA3C /* SmileyKeyboard */,
-				1A248B691BAB64EA00F5CA3C /* SmileyKeyboardTests */,
-				1A248B741BAB64EA00F5CA3C /* SmileyKeyboardUITests */,
 				1A248B531BAB64EA00F5CA3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */,
-				1A248B661BAB64EA00F5CA3C /* SmileyKeyboardTests.xctest */,
-				1A248B711BAB64EA00F5CA3C /* SmileyKeyboardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				1A248B611BAB64EA00F5CA3C /* Info.plist */,
 			);
 			path = SmileyKeyboard;
-			sourceTree = "<group>";
-		};
-		1A248B691BAB64EA00F5CA3C /* SmileyKeyboardTests */ = {
-			isa = PBXGroup;
-			children = (
-				1A248B6A1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift */,
-				1A248B6C1BAB64EA00F5CA3C /* Info.plist */,
-			);
-			path = SmileyKeyboardTests;
-			sourceTree = "<group>";
-		};
-		1A248B741BAB64EA00F5CA3C /* SmileyKeyboardUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1A248B751BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift */,
-				1A248B771BAB64EA00F5CA3C /* Info.plist */,
-			);
-			path = SmileyKeyboardUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = 1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A248B651BAB64EA00F5CA3C /* SmileyKeyboardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A248B7D1BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardTests" */;
-			buildPhases = (
-				1A248B621BAB64EA00F5CA3C /* Sources */,
-				1A248B631BAB64EA00F5CA3C /* Frameworks */,
-				1A248B641BAB64EA00F5CA3C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A248B681BAB64EA00F5CA3C /* PBXTargetDependency */,
-			);
-			name = SmileyKeyboardTests;
-			productName = SmileyKeyboardTests;
-			productReference = 1A248B661BAB64EA00F5CA3C /* SmileyKeyboardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1A248B701BAB64EA00F5CA3C /* SmileyKeyboardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A248B801BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardUITests" */;
-			buildPhases = (
-				1A248B6D1BAB64EA00F5CA3C /* Sources */,
-				1A248B6E1BAB64EA00F5CA3C /* Frameworks */,
-				1A248B6F1BAB64EA00F5CA3C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A248B731BAB64EA00F5CA3C /* PBXTargetDependency */,
-			);
-			name = SmileyKeyboardUITests;
-			productName = SmileyKeyboardUITests;
-			productReference = 1A248B711BAB64EA00F5CA3C /* SmileyKeyboardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,16 +96,6 @@
 					1A248B511BAB64EA00F5CA3C = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = GJY7YYR5KL;
-					};
-					1A248B651BAB64EA00F5CA3C = {
-						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = GJY7YYR5KL;
-						TestTargetID = 1A248B511BAB64EA00F5CA3C;
-					};
-					1A248B701BAB64EA00F5CA3C = {
-						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = GJY7YYR5KL;
-						TestTargetID = 1A248B511BAB64EA00F5CA3C;
 					};
 				};
 			};
@@ -220,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */,
-				1A248B651BAB64EA00F5CA3C /* SmileyKeyboardTests */,
-				1A248B701BAB64EA00F5CA3C /* SmileyKeyboardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +128,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A248B641BAB64EA00F5CA3C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A248B6F1BAB64EA00F5CA3C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,36 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A248B621BAB64EA00F5CA3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A248B6B1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A248B6D1BAB64EA00F5CA3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A248B761BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1A248B681BAB64EA00F5CA3C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */;
-			targetProxy = 1A248B671BAB64EA00F5CA3C /* PBXContainerItemProxy */;
-		};
-		1A248B731BAB64EA00F5CA3C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */;
-			targetProxy = 1A248B721BAB64EA00F5CA3C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1A248B591BAB64EA00F5CA3C /* Main.storyboard */ = {
@@ -417,54 +265,6 @@
 			};
 			name = Release;
 		};
-		1A248B7E1BAB64EA00F5CA3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SmileyKeyboardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileyKeyboard.app/SmileyKeyboard";
-			};
-			name = Debug;
-		};
-		1A248B7F1BAB64EA00F5CA3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SmileyKeyboardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileyKeyboard.app/SmileyKeyboard";
-			};
-			name = Release;
-		};
-		1A248B811BAB64EA00F5CA3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SmileyKeyboardUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SmileyKeyboard;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		1A248B821BAB64EA00F5CA3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SmileyKeyboardUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SmileyKeyboard;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,22 +282,6 @@
 			buildConfigurations = (
 				1A248B7B1BAB64EA00F5CA3C /* Debug */,
 				1A248B7C1BAB64EA00F5CA3C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1A248B7D1BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A248B7E1BAB64EA00F5CA3C /* Debug */,
-				1A248B7F1BAB64EA00F5CA3C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1A248B801BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A248B811BAB64EA00F5CA3C /* Debug */,
-				1A248B821BAB64EA00F5CA3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
