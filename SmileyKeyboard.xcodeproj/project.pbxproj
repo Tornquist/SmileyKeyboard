@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A248B561BAB64EA00F5CA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B551BAB64EA00F5CA3C /* AppDelegate.swift */; };
+		1A248B581BAB64EA00F5CA3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B571BAB64EA00F5CA3C /* ViewController.swift */; };
+		1A248B5B1BAB64EA00F5CA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B591BAB64EA00F5CA3C /* Main.storyboard */; };
+		1A248B5D1BAB64EA00F5CA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */; };
+		1A248B601BAB64EA00F5CA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */; };
+		1A248B6B1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B6A1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift */; };
+		1A248B761BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B751BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A248B671BAB64EA00F5CA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A248B4A1BAB64EA00F5CA3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A248B511BAB64EA00F5CA3C;
+			remoteInfo = SmileyKeyboard;
+		};
+		1A248B721BAB64EA00F5CA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A248B4A1BAB64EA00F5CA3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A248B511BAB64EA00F5CA3C;
+			remoteInfo = SmileyKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A248B551BAB64EA00F5CA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A248B571BAB64EA00F5CA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A248B5A1BAB64EA00F5CA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A248B5F1BAB64EA00F5CA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A248B611BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A248B661BAB64EA00F5CA3C /* SmileyKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A248B6A1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyKeyboardTests.swift; sourceTree = "<group>"; };
+		1A248B6C1BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A248B711BAB64EA00F5CA3C /* SmileyKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A248B751BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyKeyboardUITests.swift; sourceTree = "<group>"; };
+		1A248B771BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A248B4F1BAB64EA00F5CA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A248B631BAB64EA00F5CA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A248B6E1BAB64EA00F5CA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A248B491BAB64EA00F5CA3C = {
+			isa = PBXGroup;
+			children = (
+				1A248B541BAB64EA00F5CA3C /* SmileyKeyboard */,
+				1A248B691BAB64EA00F5CA3C /* SmileyKeyboardTests */,
+				1A248B741BAB64EA00F5CA3C /* SmileyKeyboardUITests */,
+				1A248B531BAB64EA00F5CA3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A248B531BAB64EA00F5CA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */,
+				1A248B661BAB64EA00F5CA3C /* SmileyKeyboardTests.xctest */,
+				1A248B711BAB64EA00F5CA3C /* SmileyKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A248B541BAB64EA00F5CA3C /* SmileyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1A248B551BAB64EA00F5CA3C /* AppDelegate.swift */,
+				1A248B571BAB64EA00F5CA3C /* ViewController.swift */,
+				1A248B591BAB64EA00F5CA3C /* Main.storyboard */,
+				1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */,
+				1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */,
+				1A248B611BAB64EA00F5CA3C /* Info.plist */,
+			);
+			path = SmileyKeyboard;
+			sourceTree = "<group>";
+		};
+		1A248B691BAB64EA00F5CA3C /* SmileyKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A248B6A1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift */,
+				1A248B6C1BAB64EA00F5CA3C /* Info.plist */,
+			);
+			path = SmileyKeyboardTests;
+			sourceTree = "<group>";
+		};
+		1A248B741BAB64EA00F5CA3C /* SmileyKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A248B751BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift */,
+				1A248B771BAB64EA00F5CA3C /* Info.plist */,
+			);
+			path = SmileyKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A248B7A1BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboard" */;
+			buildPhases = (
+				1A248B4E1BAB64EA00F5CA3C /* Sources */,
+				1A248B4F1BAB64EA00F5CA3C /* Frameworks */,
+				1A248B501BAB64EA00F5CA3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileyKeyboard;
+			productName = SmileyKeyboard;
+			productReference = 1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A248B651BAB64EA00F5CA3C /* SmileyKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A248B7D1BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardTests" */;
+			buildPhases = (
+				1A248B621BAB64EA00F5CA3C /* Sources */,
+				1A248B631BAB64EA00F5CA3C /* Frameworks */,
+				1A248B641BAB64EA00F5CA3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A248B681BAB64EA00F5CA3C /* PBXTargetDependency */,
+			);
+			name = SmileyKeyboardTests;
+			productName = SmileyKeyboardTests;
+			productReference = 1A248B661BAB64EA00F5CA3C /* SmileyKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A248B701BAB64EA00F5CA3C /* SmileyKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A248B801BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardUITests" */;
+			buildPhases = (
+				1A248B6D1BAB64EA00F5CA3C /* Sources */,
+				1A248B6E1BAB64EA00F5CA3C /* Frameworks */,
+				1A248B6F1BAB64EA00F5CA3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A248B731BAB64EA00F5CA3C /* PBXTargetDependency */,
+			);
+			name = SmileyKeyboardUITests;
+			productName = SmileyKeyboardUITests;
+			productReference = 1A248B711BAB64EA00F5CA3C /* SmileyKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A248B4A1BAB64EA00F5CA3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = NathanTornquist;
+				TargetAttributes = {
+					1A248B511BAB64EA00F5CA3C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GJY7YYR5KL;
+					};
+					1A248B651BAB64EA00F5CA3C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GJY7YYR5KL;
+						TestTargetID = 1A248B511BAB64EA00F5CA3C;
+					};
+					1A248B701BAB64EA00F5CA3C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GJY7YYR5KL;
+						TestTargetID = 1A248B511BAB64EA00F5CA3C;
+					};
+				};
+			};
+			buildConfigurationList = 1A248B4D1BAB64EA00F5CA3C /* Build configuration list for PBXProject "SmileyKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A248B491BAB64EA00F5CA3C;
+			productRefGroup = 1A248B531BAB64EA00F5CA3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */,
+				1A248B651BAB64EA00F5CA3C /* SmileyKeyboardTests */,
+				1A248B701BAB64EA00F5CA3C /* SmileyKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A248B501BAB64EA00F5CA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A248B601BAB64EA00F5CA3C /* LaunchScreen.storyboard in Resources */,
+				1A248B5D1BAB64EA00F5CA3C /* Assets.xcassets in Resources */,
+				1A248B5B1BAB64EA00F5CA3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A248B641BAB64EA00F5CA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A248B6F1BAB64EA00F5CA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A248B4E1BAB64EA00F5CA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A248B581BAB64EA00F5CA3C /* ViewController.swift in Sources */,
+				1A248B561BAB64EA00F5CA3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A248B621BAB64EA00F5CA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A248B6B1BAB64EA00F5CA3C /* SmileyKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A248B6D1BAB64EA00F5CA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A248B761BAB64EA00F5CA3C /* SmileyKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A248B681BAB64EA00F5CA3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */;
+			targetProxy = 1A248B671BAB64EA00F5CA3C /* PBXContainerItemProxy */;
+		};
+		1A248B731BAB64EA00F5CA3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A248B511BAB64EA00F5CA3C /* SmileyKeyboard */;
+			targetProxy = 1A248B721BAB64EA00F5CA3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A248B591BAB64EA00F5CA3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A248B5A1BAB64EA00F5CA3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A248B5F1BAB64EA00F5CA3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A248B781BAB64EA00F5CA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A248B791BAB64EA00F5CA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A248B7B1BAB64EA00F5CA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A248B7C1BAB64EA00F5CA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A248B7E1BAB64EA00F5CA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmileyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileyKeyboard.app/SmileyKeyboard";
+			};
+			name = Debug;
+		};
+		1A248B7F1BAB64EA00F5CA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmileyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileyKeyboard.app/SmileyKeyboard";
+			};
+			name = Release;
+		};
+		1A248B811BAB64EA00F5CA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmileyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmileyKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A248B821BAB64EA00F5CA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmileyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmileyKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A248B4D1BAB64EA00F5CA3C /* Build configuration list for PBXProject "SmileyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A248B781BAB64EA00F5CA3C /* Debug */,
+				1A248B791BAB64EA00F5CA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A248B7A1BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A248B7B1BAB64EA00F5CA3C /* Debug */,
+				1A248B7C1BAB64EA00F5CA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A248B7D1BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A248B7E1BAB64EA00F5CA3C /* Debug */,
+				1A248B7F1BAB64EA00F5CA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A248B801BAB64EA00F5CA3C /* Build configuration list for PBXNativeTarget "SmileyKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A248B811BAB64EA00F5CA3C /* Debug */,
+				1A248B821BAB64EA00F5CA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A248B4A1BAB64EA00F5CA3C /* Project object */;
+}
