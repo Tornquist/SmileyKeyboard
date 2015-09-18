@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aJl-pN-Qrg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Keyboard View Controller-->
+        <scene sceneID="PwM-Yz-PJI">
+            <objects>
+                <viewController id="aJl-pN-Qrg" customClass="KeyboardViewController" customModule="Smiley" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zMq-uZ-bJG"/>
+                        <viewControllerLayoutGuide type="bottom" id="YS0-cZ-8Da"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wij-OU-pRQ">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBu-Wo-XSd">
+                                <rect key="frame" x="127" y="85" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="handleNextKeyboardTapped:" destination="aJl-pN-Qrg" eventType="touchUpInside" id="58f-F2-oFI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="centerX" secondItem="Wij-OU-pRQ" secondAttribute="centerX" id="NCN-le-f8h"/>
+                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="top" secondItem="zMq-uZ-bJG" secondAttribute="bottom" constant="65" id="NDm-g8-T2r"/>
+                            <constraint firstItem="YS0-cZ-8Da" firstAttribute="top" secondItem="KBu-Wo-XSd" secondAttribute="bottom" constant="85" id="ORA-Kw-JQF"/>
+                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="leading" secondItem="Wij-OU-pRQ" secondAttribute="leadingMargin" constant="107" id="OX5-n5-Rk2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KBu-Wo-XSd" secondAttribute="trailing" constant="107" id="j9w-aP-1qG"/>
+                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="centerY" secondItem="Wij-OU-pRQ" secondAttribute="centerY" id="wuO-S0-7KP"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="200"/>
+                    <connections>
+                        <outlet property="nextKeyboardButton" destination="KBu-Wo-XSd" id="jTD-z9-W5b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMT-nv-MZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -14,6 +14,7 @@
 		1A248B601BAB64EA00F5CA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */; };
 		1A248B8A1BAB683900F5CA3C /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B891BAB683900F5CA3C /* KeyboardViewController.swift */; };
 		1A248B8E1BAB683900F5CA3C /* Smiley.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A248B871BAB683900F5CA3C /* Smiley.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A248B941BAB686400F5CA3C /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B931BAB686400F5CA3C /* Keyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1A248B871BAB683900F5CA3C /* Smiley.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Smiley.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A248B891BAB683900F5CA3C /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		1A248B8B1BAB683900F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A248B931BAB686400F5CA3C /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				1A248B891BAB683900F5CA3C /* KeyboardViewController.swift */,
 				1A248B8B1BAB683900F5CA3C /* Info.plist */,
+				1A248B931BAB686400F5CA3C /* Keyboard.storyboard */,
 			);
 			path = Smiley;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A248B941BAB686400F5CA3C /* Keyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
