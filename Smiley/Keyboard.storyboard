@@ -14,35 +14,48 @@
                         <viewControllerLayoutGuide type="bottom" id="YS0-cZ-8Da"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wij-OU-pRQ">
-                        <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBu-Wo-XSd">
-                                <rect key="frame" x="127" y="85" width="46" height="30"/>
-                                <state key="normal" title="Next"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBu-Wo-XSd">
+                                <rect key="frame" x="16" y="8" width="30" height="30"/>
+                                <state key="normal" title="👎"/>
                                 <connections>
                                     <action selector="handleNextKeyboardTapped:" destination="aJl-pN-Qrg" eventType="touchUpInside" id="58f-F2-oFI"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="xfv-yI-y3U">
+                                <rect key="frame" x="52" y="8" width="196" height="31"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icb-OJ-vQY">
+                                <rect key="frame" x="254" y="8" width="30" height="30"/>
+                                <state key="normal" title="👍"/>
+                                <connections>
+                                    <action selector="thumbsUpPressed:" destination="aJl-pN-Qrg" eventType="touchUpInside" id="egW-lv-Tej"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="centerX" secondItem="Wij-OU-pRQ" secondAttribute="centerX" id="NCN-le-f8h"/>
-                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="top" secondItem="zMq-uZ-bJG" secondAttribute="bottom" constant="65" id="NDm-g8-T2r"/>
-                            <constraint firstItem="YS0-cZ-8Da" firstAttribute="top" secondItem="KBu-Wo-XSd" secondAttribute="bottom" constant="85" id="ORA-Kw-JQF"/>
-                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="leading" secondItem="Wij-OU-pRQ" secondAttribute="leadingMargin" constant="107" id="OX5-n5-Rk2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="KBu-Wo-XSd" secondAttribute="trailing" constant="107" id="j9w-aP-1qG"/>
-                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="centerY" secondItem="Wij-OU-pRQ" secondAttribute="centerY" id="wuO-S0-7KP"/>
+                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="leading" secondItem="Wij-OU-pRQ" secondAttribute="leadingMargin" id="65m-oJ-YGk"/>
+                            <constraint firstItem="KBu-Wo-XSd" firstAttribute="top" secondItem="zMq-uZ-bJG" secondAttribute="bottom" constant="8" id="Hwn-9o-6w1"/>
+                            <constraint firstItem="icb-OJ-vQY" firstAttribute="leading" secondItem="xfv-yI-y3U" secondAttribute="trailing" constant="8" id="Pvy-Vc-N00"/>
+                            <constraint firstItem="icb-OJ-vQY" firstAttribute="top" secondItem="zMq-uZ-bJG" secondAttribute="bottom" constant="8" id="bXb-GW-EVb"/>
+                            <constraint firstItem="xfv-yI-y3U" firstAttribute="top" secondItem="zMq-uZ-bJG" secondAttribute="bottom" constant="8" id="hM6-gF-rtS"/>
+                            <constraint firstItem="xfv-yI-y3U" firstAttribute="leading" secondItem="KBu-Wo-XSd" secondAttribute="trailing" constant="8" id="npd-yY-55m"/>
+                            <constraint firstItem="icb-OJ-vQY" firstAttribute="trailing" secondItem="Wij-OU-pRQ" secondAttribute="trailingMargin" id="rzo-ay-60W"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="300" height="200"/>
+                    <size key="freeformSize" width="300" height="50"/>
                     <connections>
-                        <outlet property="nextKeyboardButton" destination="KBu-Wo-XSd" id="jTD-z9-W5b"/>
+                        <outlet property="smileySlider" destination="xfv-yI-y3U" id="PUv-FO-7ko"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HMT-nv-MZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="522" y="253"/>
         </scene>
     </scenes>
 </document>

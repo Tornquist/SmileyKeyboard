@@ -9,8 +9,8 @@
 import UIKit
 
 class KeyboardViewController: UIInputViewController {
-    @IBOutlet weak var nextKeyboardButton: UIButton!
     
+    @IBOutlet weak var smileySlider: UISlider!
     override func updateViewConstraints() {
         super.updateViewConstraints()
         
@@ -19,6 +19,13 @@ class KeyboardViewController: UIInputViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let constraint = NSLayoutConstraint(item: self.view, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 0.0, constant: 50.0)
+        self.view.addConstraint(constraint)
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,4 +44,31 @@ class KeyboardViewController: UIInputViewController {
     @IBAction func handleNextKeyboardTapped(sender: AnyObject) {
         advanceToNextInputMode()
     }
+    
+
+    @IBAction func thumbsUpPressed(sender: AnyObject) {
+        let smileySliderValue = getSmileySliderInt()
+        let smileySliderText = getSmiley(smileySliderValue)
+        sendString(smileySliderText)
+        
+    }
+    
+
+    func getSmileySliderInt() -> Int {
+        return Int(round(self.smileySlider.value))
+    }
+    
+    func getSmiley(size: Int) -> String {
+        var result = "8"
+        for var i = 1; i <= size; ++i {
+            result+="="
+        }
+        result+="D"
+        return result
+    }
+    
+    func sendString(value: String) {
+        textDocumentProxy.insertText(value)
+    }
+    
 }
