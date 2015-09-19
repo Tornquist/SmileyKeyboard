@@ -62,8 +62,8 @@
                                     <action selector="backSpaceTouchUp:" destination="aJl-pN-Qrg" eventType="touchUpInside" id="y24-Qn-vxi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icb-OJ-vQY">
-                                <rect key="frame" x="261" y="62" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icb-OJ-vQY">
+                                <rect key="frame" x="261" y="62" width="30" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="↪︎">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

@@ -13,7 +13,7 @@
 		1A248B5D1BAB64EA00F5CA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */; };
 		1A248B601BAB64EA00F5CA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */; };
 		1A248B8A1BAB683900F5CA3C /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B891BAB683900F5CA3C /* KeyboardViewController.swift */; };
-		1A248B8E1BAB683900F5CA3C /* Smiley.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A248B871BAB683900F5CA3C /* Smiley.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A248B8E1BAB683900F5CA3C /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A248B871BAB683900F5CA3C /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1A248B941BAB686400F5CA3C /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B931BAB686400F5CA3C /* Keyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1A248B8E1BAB683900F5CA3C /* Smiley.appex in Embed App Extensions */,
+				1A248B8E1BAB683900F5CA3C /* Keyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,14 +42,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A248B521BAB64EA00F5CA3C /* Smiley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smiley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A248B551BAB64EA00F5CA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A248B571BAB64EA00F5CA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A248B5A1BAB64EA00F5CA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A248B5C1BAB64EA00F5CA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A248B5F1BAB64EA00F5CA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A248B611BAB64EA00F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A248B871BAB683900F5CA3C /* Smiley.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Smiley.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A248B871BAB683900F5CA3C /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A248B891BAB683900F5CA3C /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		1A248B8B1BAB683900F5CA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A248B931BAB686400F5CA3C /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		1A248B531BAB64EA00F5CA3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */,
-				1A248B871BAB683900F5CA3C /* Smiley.appex */,
+				1A248B521BAB64EA00F5CA3C /* Smiley.app */,
+				1A248B871BAB683900F5CA3C /* Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 			);
 			name = SmileyKeyboard;
 			productName = SmileyKeyboard;
-			productReference = 1A248B521BAB64EA00F5CA3C /* SmileyKeyboard.app */;
+			productReference = 1A248B521BAB64EA00F5CA3C /* Smiley.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1A248B861BAB683900F5CA3C /* Smiley */ = {
@@ -150,7 +150,7 @@
 			);
 			name = Smiley;
 			productName = Smiley;
-			productReference = 1A248B871BAB683900F5CA3C /* Smiley.appex */;
+			productReference = 1A248B871BAB683900F5CA3C /* Keyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -349,7 +349,7 @@
 				INFOPLIST_FILE = SmileyKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Smiley;
 			};
 			name = Debug;
 		};
@@ -361,7 +361,7 @@
 				INFOPLIST_FILE = SmileyKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Smiley;
 			};
 			name = Release;
 		};
@@ -371,7 +371,7 @@
 				INFOPLIST_FILE = Smiley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard.Smiley;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Keyboard;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -382,7 +382,7 @@
 				INFOPLIST_FILE = Smiley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard.Smiley;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Keyboard;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -406,6 +406,7 @@
 				1A248B7C1BAB64EA00F5CA3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A248B8F1BAB683900F5CA3C /* Build configuration list for PBXNativeTarget "Smiley" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				1A248B911BAB683900F5CA3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
