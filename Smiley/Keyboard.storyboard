@@ -8,7 +8,7 @@
         <!--Keyboard View Controller-->
         <scene sceneID="PwM-Yz-PJI">
             <objects>
-                <viewController id="aJl-pN-Qrg" customClass="KeyboardViewController" customModule="Smiley" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aJl-pN-Qrg" customClass="KeyboardViewController" customModule="Keyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zMq-uZ-bJG"/>
                         <viewControllerLayoutGuide type="bottom" id="YS0-cZ-8Da"/>
@@ -65,7 +65,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icb-OJ-vQY">
                                 <rect key="frame" x="261" y="62" width="30" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="↪︎">
+                                <state key="normal" title="➤">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
