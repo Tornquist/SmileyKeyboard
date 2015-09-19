@@ -10,6 +10,9 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
     
+    private var holdTimer: NSTimer?
+    private var timeInterval: NSTimeInterval!
+    
     @IBOutlet weak var smileySlider: UISlider!
     override func updateViewConstraints() {
         super.updateViewConstraints()
@@ -19,6 +22,8 @@ class KeyboardViewController: UIInputViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        timeInterval = 0.15
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -50,7 +55,6 @@ class KeyboardViewController: UIInputViewController {
         let smileySliderValue = getSmileySliderInt()
         let smileySliderText = getSmiley(smileySliderValue)
         sendString(smileySliderText)
-        
     }
     
 
@@ -71,4 +75,20 @@ class KeyboardViewController: UIInputViewController {
         textDocumentProxy.insertText(value)
     }
     
+    func backSpaceAction() {
+        textDocumentProxy.deleteBackward()
+    }
+    
+    @IBAction func backSpaceTouchUp(sender: UIButton) {
+        if holdTimer != nil {
+            holdTimer!.invalidate()
+            holdTimer = nil
+        }
+    }
+    
+    @IBAction func backSpaceTouchDown(sender: UIButton) {
+        holdTimer = NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector: "backSpaceAction", userInfo: nil, repeats: true)
+        holdTimer!.fire()
+    }
+
 }
