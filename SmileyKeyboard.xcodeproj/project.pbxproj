@@ -14,7 +14,7 @@
 		1A248B601BAB64EA00F5CA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B5E1BAB64EA00F5CA3C /* LaunchScreen.storyboard */; };
 		1A248B8A1BAB683900F5CA3C /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A248B891BAB683900F5CA3C /* KeyboardViewController.swift */; };
 		1A248B8E1BAB683900F5CA3C /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A248B871BAB683900F5CA3C /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1A248B941BAB686400F5CA3C /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B931BAB686400F5CA3C /* Keyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		1A248B941BAB686400F5CA3C /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A248B931BAB686400F5CA3C /* Keyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -345,10 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SmileyKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.Smiley;
 				PRODUCT_NAME = Smiley;
 			};
 			name = Debug;
@@ -357,10 +358,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SmileyKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.Smiley;
 				PRODUCT_NAME = Smiley;
 			};
 			name = Release;
@@ -370,7 +372,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = Smiley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard.Smiley;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.Smiley.Smiley;
 				PRODUCT_NAME = Keyboard;
 				SKIP_INSTALL = YES;
 			};
@@ -381,7 +383,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = Smiley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.SmileyKeyboard.Smiley;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantornquist.Smiley.Smiley;
 				PRODUCT_NAME = Keyboard;
 				SKIP_INSTALL = YES;
 			};

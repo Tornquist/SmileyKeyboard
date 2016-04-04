@@ -64,10 +64,12 @@ class KeyboardViewController: UIInputViewController {
     
     func getSmiley(size: Int) -> String {
         var result = "8"
-        for var i = 1; i <= size; ++i {
-            result+="="
+        if size > 0 {
+            for _ in 1...size {
+                result += "="
+            }
         }
-        result+="D"
+        result += "D"
         return result
     }
     
@@ -87,7 +89,7 @@ class KeyboardViewController: UIInputViewController {
     }
     
     @IBAction func backSpaceTouchDown(sender: UIButton) {
-        holdTimer = NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector: "backSpaceAction", userInfo: nil, repeats: true)
+        holdTimer = NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector: #selector(KeyboardViewController.backSpaceAction), userInfo: nil, repeats: true)
         holdTimer!.fire()
     }
 
