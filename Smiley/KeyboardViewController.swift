@@ -10,8 +10,8 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
     
-    private var holdTimer: NSTimer?
-    private var timeInterval: NSTimeInterval!
+    fileprivate var holdTimer: Timer?
+    fileprivate var timeInterval: TimeInterval!
     
     @IBOutlet weak var smileySlider: UISlider!
     override func updateViewConstraints() {
@@ -26,10 +26,10 @@ class KeyboardViewController: UIInputViewController {
         timeInterval = 0.15
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let constraint = NSLayoutConstraint(item: self.view, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 0.0, constant: 100.0)
+        let constraint = NSLayoutConstraint(item: self.view, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 0.0, constant: 100.0)
         self.view.addConstraint(constraint)
     }
     
@@ -38,20 +38,20 @@ class KeyboardViewController: UIInputViewController {
         // Dispose of any resources that can be recreated
     }
     
-    override func textWillChange(textInput: UITextInput?) {
+    override func textWillChange(_ textInput: UITextInput?) {
         // The app is about to change the document's contents. Perform any preparation here.
     }
     
-    override func textDidChange(textInput: UITextInput?) {
+    override func textDidChange(_ textInput: UITextInput?) {
         // The app has just changed the document's contents, the document context has been updated.
     }
     
-    @IBAction func handleNextKeyboardTapped(sender: AnyObject) {
+    @IBAction func handleNextKeyboardTapped(_ sender: AnyObject) {
         advanceToNextInputMode()
     }
     
 
-    @IBAction func thumbsUpPressed(sender: AnyObject) {
+    @IBAction func thumbsUpPressed(_ sender: AnyObject) {
         let smileySliderValue = getSmileySliderInt()
         let smileySliderText = getSmiley(smileySliderValue)
         sendString(smileySliderText)
@@ -62,7 +62,7 @@ class KeyboardViewController: UIInputViewController {
         return Int(round(self.smileySlider.value))
     }
     
-    func getSmiley(size: Int) -> String {
+    func getSmiley(_ size: Int) -> String {
         var result = "8"
         if size > 0 {
             for _ in 1...size {
@@ -73,7 +73,7 @@ class KeyboardViewController: UIInputViewController {
         return result
     }
     
-    func sendString(value: String) {
+    func sendString(_ value: String) {
         textDocumentProxy.insertText(value)
     }
     
@@ -81,15 +81,15 @@ class KeyboardViewController: UIInputViewController {
         textDocumentProxy.deleteBackward()
     }
     
-    @IBAction func backSpaceTouchUp(sender: UIButton) {
+    @IBAction func backSpaceTouchUp(_ sender: UIButton) {
         if holdTimer != nil {
             holdTimer!.invalidate()
             holdTimer = nil
         }
     }
     
-    @IBAction func backSpaceTouchDown(sender: UIButton) {
-        holdTimer = NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector: #selector(KeyboardViewController.backSpaceAction), userInfo: nil, repeats: true)
+    @IBAction func backSpaceTouchDown(_ sender: UIButton) {
+        holdTimer = Timer.scheduledTimer(timeInterval: timeInterval, target: self, selector: #selector(KeyboardViewController.backSpaceAction), userInfo: nil, repeats: true)
         holdTimer!.fire()
     }
 
